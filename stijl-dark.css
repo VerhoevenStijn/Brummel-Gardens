@@ -1,0 +1,35 @@
+body {
+  background-color: black;
+}
+
+h2 {
+	color: #9bc05d;
+}
+
+.link:link {
+	color: white;
+}
+.link:hover{
+  color: #9bc05d;
+}
+.link:visited{
+  color: white;
+}
+nav {
+  background-color: black;
+  opacity: 0.9;
+}
+
+.hamburger {
+
+  border-top: 0.5rem solid #9bc05d;
+  border-bottom: 0.5rem solid #9bc05d;
+
+}
+
+.hamburger:before {
+  border-top: 0.5rem solid #9bc05d;
+}
+
+.close:before, .close:after {
+  background-color: #2c6333;

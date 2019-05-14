@@ -1,0 +1,21 @@
+body {
+	background-color: white;
+}
+
+h1, p {
+	color: #363534;
+}
+
+h2 {
+	color: #2c6333;
+}
+
+.link:link {
+	color: black;
+}
+.link:hover{
+  color: #9bc05d;
+}
+.link:visited {
+	color: black;
+}

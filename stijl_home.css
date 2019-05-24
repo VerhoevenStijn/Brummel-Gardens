@@ -13,7 +13,7 @@
       }
       header{
         position: fixed;
-        height: 7rem;
+        height: 10rem;
         width: 100vw;
         padding: ;
         padding-top: 1rem;
@@ -24,7 +24,7 @@
       }
       #dark{
         position: absolute;
-        top:2rem;
+        top:5rem;
         margin-left: 15rem;
         background-color: #2c6333;
         margin-top: 5rem;
@@ -33,7 +33,7 @@
       }
       #light{
         position: absolute;
-        top:6rem;
+        top:9rem;
         background-color: #9bc05d;
         margin-left: 3rem;
         margin-bottom: 2rem;
@@ -69,28 +69,28 @@
         height: 100rem;
         padding-top: 10rem;
         margin-top: 6rem;
-        font-size: 3rem;
+        font-size: 4rem;
       }
       .hamburger {
           position: fixed;
           right: 2rem;
           top: 1.5rem;
           display: inline-block;
-          width: 3rem;
-          height: 3rem;
+          width: 5rem;
+          height: 5rem;
           margin-top: 1rem;
           margin-right: 0.5rem;
           margin-left: 1rem;
-          border-top: 0.5rem solid #2c6333;
-          border-bottom: 0.5rem solid #2c6333;
+          border-top: 1rem solid #2c6333;
+          border-bottom: 1rem solid #2c6333;
       }
       .hamburger:before {
           content: "";
           position: absolute;
-          top: 0.7rem;
+          top: 1rem;
           right: 0px;
           width: 100%;
-          border-top: 0.5rem solid #2c6333;
+          border-top: 1rem solid #2c6333;
       }
       .close {
         position: fixed;
@@ -120,9 +120,9 @@
       .logo {
         position: absolute;
         left:2rem;
-        top: 1.3rem;
-        width: 130px;
-        height: 50px;
+        top: 0.5rem;
+        width: 25rem;
+        height: 10rem;
         filter: none;
       }
       main{
@@ -342,24 +342,30 @@
               max-width: 100%;
             }
             header {
-              height: 7rem;
+              height: 10rem;
+            }
+            main {
+               display: grid;
+               grid-template-columns: 1fr 1fr;
             }
             .logo{
               position: absolute;
               left: 2rem;
             }
             nav{
+              font-size: 3.5rem;
               display: flex;
               flex-direction: row;
               justify-content: flex-end;
               position: absolute;
               top: 0rem;
               right: 2rem;
-              height: 0;
+              height: 0rem;
+              width: 20rem;
               margin-top: 2rem;
               padding-top: 0;
               background-color: white;
-              width: 50rem;
+              width: 60rem;
             }
             nav a:nth-child(1){
               margin-left: 3rem;
@@ -381,104 +387,29 @@
               text-decoration: none;
               color: black;
             }
+            .boom-onder1{
+              grid-column: 1;
+              grid-row: 2;
+            }
+            .boom-onder3{
+              grid-column: 1;
+              grid-row: 4;
+            }
+            .boom-boven5{
+              grid-column: 1/3;
+            }
+            .boom-onder5{
+              grid-column: 1/3;
+            }
             .hamburger {
               display:none;
             }
             .close {
               display: none;
             }
-            @media (min-width: 800px){
-              body {
-                max-width: 100%;
-              }
-              main {
-                 column-count: 3;
-                 column-gap: 5vw;
-                 gap: 2vw;
-              }
-              nav{
-                display: flex;
-                flex-direction: row;
-                justify-content: flex-end;
-                position: absolute;
-                top: 0rem;
-                right: 2rem;
-                height: 0;
-                margin-top: 2rem;
-                padding-top: 0;
-                background-color: white;
-                width: 50rem;
-              }
-            }
 
-      body{
-        max-width: 100%;
-      }
-      main {
-         display: grid;
-         grid-template-columns: 1fr 1fr;
-      }
-      header {
-        height: 7rem;
-      }
-      .logo{
-        position: absolute;
-        left: 2rem;
-      }
-      nav{
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-end;
-        position: absolute;
-        top: 0rem;
-        right: 2rem;
-        height: 0;
-        margin-top: 2rem;
-        padding-top: 0;
-        background-color: white;
-        width: 50rem;
-      }
-      nav a:nth-child(1){
-        margin-left: 3rem;
-        text-decoration: none;
-        color: black;
-      }
-      nav a:nth-child(2){
-        margin-left: 3rem;
-        text-decoration: none;
-        color: black;
-      }
-      nav a:nth-child(3){
-        margin-left: 3rem;
-        text-decoration: none;
-        color: black;
-      }
-      nav a:nth-child(4){
-        margin-left: 3rem;
-        text-decoration: none;
-        color: black;
-      }
-      .hamburger {
-        display:none;
-      }
-      .close {
-        display: none;
-      }
-      .boom-onder1{
-        grid-column: 1;
-        grid-row: 2;
-      }
-      .boom-onder3{
-        grid-column: 1;
-        grid-row: 4;
-      }
-      .boom-boven5{
-        grid-column: 1/3;
-      }
-      .boom-onder5{
-        grid-column: 1/3;
-      }
-  @media (min-width: 1100px){
+
+  @media (min-width: 1200px){
       body {
         max-width: 100%;
       }
@@ -498,7 +429,7 @@
         margin-top: 2rem;
         padding-top: 0;
         background-color: white;
-        width: 50rem;
+        width: 70rem;
       }
       .boom-boven3{
         grid-column: 3;

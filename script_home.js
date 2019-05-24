@@ -3,7 +3,6 @@ let menuKnop = document.querySelector(".hamburger");
 let navMenu = document.querySelector("nav");
 let mijnSpan = document.querySelector("span");
 let mijnTitels = document.querySelectorAll("h3");
-let mijnPlus = document.querySelectorAll(".plus")
 
 function toonMenu() {
 if(navMenu.style.display === "flex") {
@@ -19,7 +18,6 @@ mijnSpan.setAttribute("class", "close");
 }
 }
 menuKnop.addEventListener("click",  toonMenu);
-
 
 //dark mode
 let darkLink = document.querySelectorAll("body a")[5];

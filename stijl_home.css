@@ -140,6 +140,14 @@
         margin-right: auto;
         margin-top: 4rem;
         border-radius: 50%;
+        background-image: url(boomplanten.png);
+        filter: grayscale(1);
+        transition: all .8s ease-in-out;
+        background-size: cover;
+      }
+      .boom-boven1:hover{
+        filter: none;
+        transform: scale(1.01);
       }
       .boom-onder1 {
         width: 100px;
@@ -186,6 +194,14 @@
         margin-right: auto;
         margin-top: 4rem;
         border-radius: 50%;
+        background-image: url(grasmatten.png);
+        filter: grayscale(1);
+        transition: all .8s ease-in-out;
+        background-size: cover;
+      }
+      .boom-boven2:hover{
+        filter: none;
+        transform: scale(1.01);
       }
       .boom-onder2 {
         width: 100px;
@@ -215,6 +231,14 @@
         margin-right: auto;
         margin-top: 4rem;
         border-radius: 50%;
+        background-image: url(voor&na3.png);
+        filter: grayscale(1);
+        transition: all .8s ease-in-out;
+        background-size: cover;
+      }
+      .boom-boven3:hover{
+        filter: none;
+        transform: scale(1.01);
       }
       .boom-onder3 {
         width: 100px;
@@ -244,6 +268,14 @@
         margin-right: auto;
         margin-top: 4rem;
         border-radius: 50%;
+        background-image: url(moestuin.png);
+        filter: grayscale(1);
+        transition: all .8s ease-in-out;
+        background-size: cover;
+      }
+      .boom-boven4:hover{
+        filter: none;
+        transform: scale(1.01);
       }
       .boom-onder4 {
         width: 100px;
@@ -273,6 +305,14 @@
         margin-right: auto;
         margin-top: 4rem;
         border-radius: 50%;
+        background-image: url(tuinonderhoud.jpg);
+        filter: grayscale(1);
+        transition: all .8s ease-in-out;
+        background-size: cover;
+      }
+      .boom-boven5:hover{
+        filter: none;
+        transform: scale(1.01);
       }
       .boom-onder5 {
         width: 100px;
@@ -295,17 +335,8 @@
         margin-left: 17.5rem;
         margin-top: 2rem;
       }
-      img {
-          filter: gray;
-          -webkit-filter: grayscale(1);
-          -webkit-transition: all .8s ease-in-out;
-        }
 
-        img:hover {
-        filter: none;
-          -webkit-filter: grayscale(0);
-          -webkit-transform: scale(1.01);
-        }
+
 @media (min-width: 800px){
             body{
               max-width: 100%;
